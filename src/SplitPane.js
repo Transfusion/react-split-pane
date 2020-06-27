@@ -286,7 +286,7 @@ class SplitPane extends React.Component {
       Object.assign(style, {
         bottom: 0,
         flexDirection: 'column',
-        minHeight: '100%',
+        // minHeight: '100%',
         top: 0,
         width: '100%',
       });
