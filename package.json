@@ -1,5 +1,5 @@
 {
-  "name": "react-split-pane",
+  "name": "@Transfusion/react-split-pane",
   "description": "React split-pane component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -12,13 +12,13 @@
   "version": "0.1.91",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomkp/react-split-pane"
+    "url": "https://github.com/Transfusion/react-split-pane"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tomkp/react-split-pane"
+    "url": "https://github.com/Transfusion/react-split-pane"
   },
-  "homepage": "https://github.com/tomkp/react-split-pane",
+  "homepage": "https://github.com/Transfusion/react-split-pane",
   "author": "tomkp <tom@tomkp.com>",
   "keywords": [
     "react",
@@ -102,5 +102,8 @@
   "peerDependencies": {
     "react": "^16.0.0-0",
     "react-dom": "^16.0.0-0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
